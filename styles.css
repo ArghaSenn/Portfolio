@@ -1,0 +1,175 @@
+
+body{
+  margin:0px;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  color: #40514E;
+  font-weight: bold;
+
+}
+
+h1{
+  margin: 50px auto 30px 0;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  color: #66BFBF;
+  
+}
+
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #66BFBF;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+h3{
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+
+p{
+  line-height: 2;
+}
+
+.profile-description{
+  width: 30%;
+  margin: auto;
+}
+
+
+.middle-container{
+  margin-top: 100px;
+
+}
+
+.bottom{
+
+}
+
+.top{
+  background-color: #EAF6F6;
+  position: relative;
+  padding: 50px;
+  
+}
+
+span{
+  text-decoration: underline;
+}
+
+
+.top-cloud{
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottom-cloud{
+  position: absolute;
+  left: 200px;
+}
+
+.skill-row{
+  width:50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.HTML{
+  float: left;
+  width: 25%;
+  margin-right: 30px;
+}
+
+hr{
+  border-style: dotted none none none;
+  width:5%;
+  border-width: 7px;
+  color: #EAF6F6;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+
+.CSS{
+  float: right; /* float makes the paragrap wrap around on the right side of the image.*/
+  width: 25%;
+  margin-left: 30px;
+}
+/*.css-description{
+  clear: right;  clear-right makes the text stay independent in the right.
+}
+*/
+
+.bottom-container{
+  background-color: #66BFBF;
+  padding: 50px 0 20px;
+  margin-top: 100px;
+
+}
+
+a{
+  color: #11999E;
+  text-decoration: none;
+  font-family: Montserrat;
+  line-height: 50px;
+  margin: 10px 20px;
+}
+
+a:hover{
+  color: #EAF6F6;
+
+}
+
+
+.contact{
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+.contact-me{
+  margin-top: 50px;
+}
+
+
+.btn {
+  
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #11999e);
+  background-image: -moz-linear-gradient(top, #3498db, #11999e);
+  background-image: -ms-linear-gradient(top, #3498db, #11999e);
+  background-image: -o-linear-gradient(top, #3498db, #11999e);
+  background-image: linear-gradient(to bottom, #3498db, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Montserrat;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2b4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2b4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2b4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2b4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2b4ad);
+  text-decoration: none;
+}
+
+  .contact-message{
+    width: 40%;
+    margin: 40px auto;
+ 
+  }
+
+.profile{
+  margin-bottom: 100px;
+
+}
